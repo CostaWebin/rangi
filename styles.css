@@ -30,7 +30,7 @@ body {
 .container {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0px 15px;
+    padding: 0 15px;
 }
 
 a {
@@ -113,7 +113,7 @@ nav a:hover {
     font-size: 2rem;
     color: var(--text-two);
     line-height: 32px;
-    margin: 17px 0px 47px;
+    margin: 17px 0 47px;
 }
 
 .main-content .button {
@@ -125,7 +125,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 74px 0px;
+    gap: 74px 0;
 }
 
 .adv-card {
@@ -152,7 +152,7 @@ nav a:hover {
 }
 
 .dir {
-    margin: 0px 15px;
+    margin: 0 15px;
 }
 
 .dir .container {
@@ -353,7 +353,7 @@ nav a:hover {
 
 .footer h3 {
     color: var(--main-collor);
-    font-family: 'Segoe UI', 'Inter';
+    font-family: 'Segoe UI', 'Inter', serif;
     font-weight: 600;
     font-size: 18px;
 }
@@ -447,7 +447,7 @@ nav a:hover {
 }
 
 .footer-bottom-right span {
-    margin-right: 11.52px;
+    margin-right: 12px;
 }
 
 .footer-button {
@@ -514,8 +514,7 @@ nav a:hover {
     font-weight: 600;
     text-align: center;
     color: var(--text-three);
-    font-family: var(--second-family);
-}
+    }
 
 .modal-form {
     margin-top: 20px;
