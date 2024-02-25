@@ -69,6 +69,8 @@ button span {
     opacity: .7;
 }
 
+/*Header*/
+
 header .container {
     display: flex;
     margin-top: 22px;
@@ -100,6 +102,8 @@ nav a:hover {
     border-radius: 5px;
 }
 
+/*Main content*/
+
 .main-content .container {
     margin-top: 116px;
 }
@@ -120,7 +124,9 @@ nav a:hover {
     padding: 18px 40px;
 }
 
-.adv .container {
+/*About company*/
+
+.about .container {
     margin: 174px auto 120px;
     display: flex;
     flex-wrap: wrap;
@@ -128,13 +134,13 @@ nav a:hover {
     gap: 74px 0;
 }
 
-.adv-card {
+.about-card {
     display: flex;
     gap: 23px;
     max-width: 405px;
 }
 
-.adv-img {
+.about-img {
     border-radius: 10px;
     padding: 17px;
     height: 63px;
@@ -147,9 +153,11 @@ nav a:hover {
     gap: 25px;
 }
 
-.adv p {
+.about p {
     color: var(--text-two);
 }
+
+/*Directions*/
 
 .dir {
     margin: 0 15px;
@@ -218,6 +226,8 @@ nav a:hover {
     border-radius: 5px;
 }
 
+/*Task*/
+
 .task h2 {
     font-size: 3.6rem;
     margin-bottom: 19px;
@@ -227,6 +237,8 @@ nav a:hover {
 .task .container {
     margin-bottom: 114px;
 }
+
+/*Rating*/
 
 .rating h2 {
     font-weight: 700;
@@ -268,6 +280,8 @@ nav a:hover {
     margin: 0 -290px -35px 0;
     padding-top: 80px;
 }
+
+/*How it works*/
 
 .how .container {
     margin-bottom: 165px;
@@ -314,6 +328,8 @@ nav a:hover {
     opacity: .8;
 }
 
+/*More*/
+
 .more .container {
     display: flex;
     flex-direction: column;
@@ -335,6 +351,8 @@ nav a:hover {
     color: var(--text-two);
     margin: 25px 0 50px;
 }
+
+/*Footer*/
 
 .footer {
     background: var(--text);
@@ -424,7 +442,7 @@ nav a:hover {
     font-size: 11px;
 }
 
-.footer-disclaimer span {
+.footer-disclaimer a {
     text-decoration: underline;
 }
 
@@ -465,7 +483,6 @@ nav a:hover {
 .developer-logo img {
     margin-right: 5px;
 }
-
 
 
 .modal-overlay {
@@ -514,7 +531,7 @@ nav a:hover {
     font-weight: 600;
     text-align: center;
     color: var(--text-three);
-    }
+}
 
 .modal-form {
     margin-top: 20px;
@@ -547,8 +564,8 @@ nav a:hover {
     background-color: transparent;
 }
 
-.modal-form .modal-group input:placeholder-shown+label,
-.modal-form .modal-group textarea:placeholder-shown+label {
+.modal-form .modal-group input:placeholder-shown + label,
+.modal-form .modal-group textarea:placeholder-shown + label {
     top: 10px;
     background-color: transparent;
 }
@@ -558,8 +575,8 @@ nav a:hover {
     border-color: var(--accent);
 }
 
-.modal-form .modal-group input:focus+label,
-.modal-form .modal-group textarea:focus+label {
+.modal-form .modal-group input:focus + label,
+.modal-form .modal-group textarea:focus + label {
     top: -10px;
     left: 10px;
     background-color: #fff;
@@ -593,7 +610,7 @@ body.modal-open {
     padding-right: 15px;
 }
 
-@media(min-width: 1600px) {
+@media (min-width: 1600px) {
     .how-card {
         max-width: 500px;
     }
